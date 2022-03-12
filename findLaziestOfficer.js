@@ -38,8 +38,8 @@ const findLaziestOfficer = (securityData) => {
     if (a.minutesAsleep > b.minutesAsleep) return -1;
     return 0;
   });
-  const laziestOfficer = officers[0]
-  
+  const laziestOfficer = officers[0];
+
   return laziestOfficer;
 };
 

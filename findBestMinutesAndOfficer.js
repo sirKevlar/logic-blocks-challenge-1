@@ -1,4 +1,3 @@
-const { data } = require('./data.js');
 const findLaziestOfficer = require('./findLaziestOfficer');
 
 const findBestMinutesAndOfficer = (securityData) => {
@@ -54,6 +53,7 @@ const findBestMinutesAndOfficer = (securityData) => {
     sleepiestTimes: bestMinutes,
   };
 
-  console.log(idAndTimes);
+  return idAndTimes;
 };
-findBestMinutesAndOfficer(data);
+
+module.exports = findBestMinutesAndOfficer;

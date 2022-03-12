@@ -4,7 +4,7 @@ Messing about with a challenge about lazy security guards
 ---
 - ### Replace `data.js` with your sample data
 
-- ### Invoke `findBestMinutesAndOfficer` with your data provided as an argument
+- ### Invoke `findBestMinutesAndOfficer` with your data provided as the argument
 
 **sample result:**
 
@@ -15,4 +15,11 @@ Messing about with a challenge about lazy security guards
 }
 ```
 
+- ### Invoke `idTimesMinutes` with your data provided as the argument
+
+**sample result:**
+
+```
+[ 646, 663, 680, 697, 714, 731 ]
+```
 
