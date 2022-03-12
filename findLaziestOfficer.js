@@ -40,6 +40,7 @@ const findLaziestOfficer = (securityData) => {
   });
   const laziestOfficer = officers[0];
 
+  console.log(laziestOfficer);
   return laziestOfficer;
 };
 

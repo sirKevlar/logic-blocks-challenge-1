@@ -6,7 +6,5 @@ const idTimesMinutes = (securityData) => {
   const minTimesId = bestTimes.sleepiestTimes.map((minute) => {
     return minute * bestTimes.officer  
   })
-  console.log(minTimesId);
 };
 
-idTimesMinutes(data);

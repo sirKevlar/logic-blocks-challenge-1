@@ -1,8 +1,25 @@
 # logic-blocks-challenge-1
 
-Messing about with a challenge about lazy security guards
----
+## Messing about with a challenge about lazy security guards
+
 - ### Replace `data.js` with your sample data
+
+- ### Invoke `findLaziestOfficer` with your data provided as the argument
+
+**sample result:**
+
+```
+{
+  id: '17',
+  days: [
+    '..............................################..............',
+    '...............############...........#################.....',
+    '..........................#######.....########..............',
+    '.....######....######.................######................'
+  ],
+  minutesAsleep: 78
+}
+```
 
 - ### Invoke `findBestMinutesAndOfficer` with your data provided as the argument
 
@@ -22,4 +39,3 @@ Messing about with a challenge about lazy security guards
 ```
 [ 646, 663, 680, 697, 714, 731 ]
 ```
-

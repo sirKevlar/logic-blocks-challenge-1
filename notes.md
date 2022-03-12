@@ -14,6 +14,6 @@
 
 - [x] Find laziest Guard
 
-- [ ] Find most frequent minute
+- [x] Find most frequent minute
 
-- [ ] Do the silly multiplication at the end
+- [x] Do the silly multiplication at the end
