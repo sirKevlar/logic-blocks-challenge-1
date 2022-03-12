@@ -7,4 +7,3 @@ const idTimesMinutes = (securityData) => {
     return minute * bestTimes.officer  
   })
 };
-

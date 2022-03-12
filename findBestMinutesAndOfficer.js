@@ -52,7 +52,6 @@ const findBestMinutesAndOfficer = (securityData) => {
     officer: laziestOfficer.id,
     sleepiestTimes: bestMinutes,
   };
-
   return idAndTimes;
 };
 

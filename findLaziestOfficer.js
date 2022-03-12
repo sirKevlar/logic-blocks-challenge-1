@@ -5,8 +5,8 @@ const findLaziestOfficer = (securityData) => {
 
   // Creates team object
   days.forEach((day) => {
-    const dayInMins = day.slice(12);
-    const officerId = `${day[8]}${day[9]}`;
+    const dayInMins = day.match(/[\.#]{60}/g)[0];
+    const officerId = day.match(/#\d+/g)[0].slice(1);
 
     if (team.hasOwnProperty(officerId)) {
       team[officerId].days.push(dayInMins);
@@ -40,7 +40,6 @@ const findLaziestOfficer = (securityData) => {
   });
   const laziestOfficer = officers[0];
 
-  console.log(laziestOfficer);
   return laziestOfficer;
 };
 
