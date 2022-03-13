@@ -9,5 +9,8 @@ const idTimesMinutes = (securityData) => {
   return minTimesId;
 };
 
+/* ---un-comment below to demo--- */
+
 // const result = idTimesMinutes(data);
 // console.log(result);
+
